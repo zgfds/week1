@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Question2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("숫자를 입력하시오: ");
+        System.out.println("숫자를 입력하세요: ");
         int day =sc.nextInt();
 
         switch (day) {
