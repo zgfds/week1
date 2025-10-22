@@ -1,3 +1,5 @@
+package Prac;
+
 import java.util.Scanner;
 
 public class SwitchExample {
