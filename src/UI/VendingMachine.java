@@ -41,7 +41,7 @@ public class VendingMachine {
     // 돈 넣기
     public void insertMoney(int amount) {
         if (amount <= 0) {
-            System.out.println("⚠️ 올바른 금액을 입력하세요!");
+            System.out.println("올바른 금액을 입력하세요!");
             return;
         }
         money += amount;
@@ -51,7 +51,7 @@ public class VendingMachine {
     // 음료 구매
     public void buyDrink(int choice) {
         if (choice < 1 || choice > drinks.size()) {
-            System.out.println("⚠️ 잘못된 선택입니다!");
+            System.out.println("잘못된 선택입니다!");
             return;
         }
         Drink d = drinks.get(choice - 1);
@@ -59,7 +59,7 @@ public class VendingMachine {
             money -= d.price;
             System.out.println(d.name + "를(을) 구매했습니다! 남은 금액: " + money + "원");
         } else {
-            System.out.println("💸 잔액이 부족합니다!");
+            System.out.println("잔액이 부족합니다!");
         }
     }
 
