@@ -24,9 +24,9 @@ public class VendingMachine {
 
     // 생성자 (초기 음료 목록 설정)
     public VendingMachine() {
-        drinks.add(new Drink("코카콜라", 1200, 355));
-        drinks.add(new Drink("칠성사이다", 1200, 355));
-        drinks.add(new Drink("TOP", 1000, 250));
+        drinks.add(new Drink("코카콜라", 2500, 355));
+        drinks.add(new Drink("칠성사이다", 2000, 355));
+        drinks.add(new Drink("TOP", 1800, 250));
         drinks.add(new Drink("물", 1000, 500));
     }
 
